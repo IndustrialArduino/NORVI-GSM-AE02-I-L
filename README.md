@@ -17,3 +17,6 @@ Analog Inputs with 4-20mA
 Transistor Outputs
 DIN-Rail mount
 Expansions Supported
+
+Datasheet:   https://drive.google.com/open?id=1WYGlWkzXMxZzcUsU9fk8qQoY2_q4uT_G&usp=drive_fs
+User Guide:  https://drive.google.com/open?id=1e2ClT6rCWhifIRZfUfOk_857m8iCseA8&usp=drive_fs
