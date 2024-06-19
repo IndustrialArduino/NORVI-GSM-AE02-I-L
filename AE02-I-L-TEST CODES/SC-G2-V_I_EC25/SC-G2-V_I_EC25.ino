@@ -1,13 +1,13 @@
 /*
  * RTC Check
- * micro SD Card Check CS : 15
+ * micro SD Card Check 
  * RS485
- * SIM800C
+ * SIM7500/EC25
  * All Output Turn ON Series
  * All input status serial print
- *  Turns ON All Outputs in series
- *   Serial prints all the input status
- *   SIM800C External Antenna Test
+ * Turns ON All Outputs in series
+ * Serial prints all the input status
+ * External Antenna Test
  */
 
 #include <SPI.h>
@@ -61,7 +61,7 @@ void setup() {
   Serial2.begin(115200, SERIAL_8N1, GSM_RX, GSM_TX); 
 
   pinMode(GSM_RESET, OUTPUT);
-  digitalWrite(GSM_RESET, HIGH);   // RS-485 
+  digitalWrite(GSM_RESET, HIGH);   
 
   pinMode(RS485_FC, OUTPUT);
   digitalWrite(RS485_FC, HIGH);   // RS-485 
